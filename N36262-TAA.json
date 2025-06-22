@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "N36262 TAA 20250227",
+    "name": "N36262 TAA 20250622",
     "makeAndModel": "Piper PA-32RT-300 Lance II (P32T)",
     "aircraftInfo": "N36262",
     "modifiedTime": 1740695374
@@ -714,16 +714,6 @@
             {
               "prompt": "Oil Pressure",
               "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Air Conditioner",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Annunciator Panel",
-              "expectation": "PRESS TO TEST",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1473,6 +1463,11 @@
               "prompt": "Landing Light",
               "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flight Plan",
+              "expectation": "CLOSE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
         },
@@ -1537,6 +1532,11 @@
             {
               "prompt": "Master Switch",
               "expectation": "OFF",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flight Plan",
+              "expectation": "CONFIRM CLOSED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
