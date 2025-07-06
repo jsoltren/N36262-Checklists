@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "name": "N36262 TAA 20250622",
+    "name": "N36262 TAA 20250706",
     "makeAndModel": "Piper PA-32RT-300 Lance II (P32T)",
     "aircraftInfo": "N36262",
-    "modifiedTime": 1740695374
+    "modifiedTime": 1750620137
   },
   "groups": [
     {
@@ -1712,6 +1712,11 @@
             {
               "prompt": "Throttle",
               "expectation": "1000 - 1200 RPM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Electric Fuel Pump",
+              "expectation": "SWITCH OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
