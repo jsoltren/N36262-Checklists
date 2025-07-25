@@ -3,7 +3,7 @@
     "name": "N36262 TAA 20250706",
     "makeAndModel": "Piper PA-32RT-300 Lance II (P32T)",
     "aircraftInfo": "N36262",
-    "modifiedTime": 1750620137
+    "modifiedTime": 1752368174
   },
   "groups": [
     {
@@ -873,6 +873,11 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
+              "prompt": "CDI/OBS",
+              "expectation": "CONFIRM MODE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
               "prompt": "Garmin GTX 345 Transponder",
               "type": "ITEM_TITLE"
             },
@@ -1103,6 +1108,11 @@
             {
               "prompt": "Landing Light",
               "expectation": "OFF AT DESIRED ALTITUDE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Flaps",
+              "expectation": "RETRACTED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
